@@ -84,6 +84,7 @@
     {"id":{"name":"snd_fountain","path":"sounds/snd_fountain/snd_fountain.yy",},"order":3,},
     {"id":{"name":"obj_baddie","path":"objects/obj_baddie/obj_baddie.yy",},"order":0,},
     {"id":{"name":"spr_hud_heart","path":"sprites/spr_hud_heart/spr_hud_heart.yy",},"order":1,},
+    {"id":{"name":"spr_dragon","path":"sprites/spr_dragon/spr_dragon.yy",},"order":7,},
     {"id":{"name":"path_default","path":"paths/path_default/path_default.yy",},"order":0,},
     {"id":{"name":"spr_editor_wall","path":"sprites/spr_editor_wall/spr_editor_wall.yy",},"order":0,},
     {"id":{"name":"spr_bones_pile_0","path":"sprites/spr_bones_pile_0/spr_bones_pile_0.yy",},"order":0,},
