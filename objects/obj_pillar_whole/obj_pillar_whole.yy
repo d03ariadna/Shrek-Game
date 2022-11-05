@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_pillar_whole",
   "spriteId": {
     "name": "spr_pillar_whole",
     "path": "sprites/spr_pillar_whole/spr_pillar_whole.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -30,8 +34,4 @@
     "name": "Level",
     "path": "folders/Objects/Level.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_pillar_whole",
-  "tags": [],
-  "resourceType": "GMObject",
 }

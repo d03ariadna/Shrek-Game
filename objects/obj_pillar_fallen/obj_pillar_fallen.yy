@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_pillar_fallen",
   "spriteId": {
     "name": "spr_pillar_fallen",
     "path": "sprites/spr_pillar_fallen/spr_pillar_fallen.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -30,8 +34,4 @@
     "name": "Level",
     "path": "folders/Objects/Level.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_pillar_fallen",
-  "tags": [],
-  "resourceType": "GMObject",
 }

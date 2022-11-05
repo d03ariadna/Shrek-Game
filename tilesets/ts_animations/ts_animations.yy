@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "ts_animations",
   "spriteId": {
     "name": "spr_tileset_animations",
     "path": "sprites/spr_tileset_animations/spr_tileset_animations.yy",
@@ -20,7 +23,7 @@
   "tile_count": 256,
   "autoTileSets": [],
   "tileAnimationFrames": [
-    {"frames":[
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"wall_torch","frames":[
         64,
         65,
         66,
@@ -37,8 +40,8 @@
         77,
         78,
         79,
-      ],"resourceVersion":"1.0","name":"wall_torch","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"wall_drip","frames":[
         16,
         17,
         18,
@@ -55,8 +58,8 @@
         29,
         30,
         31,
-      ],"resourceVersion":"1.0","name":"wall_drip","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"flag_wave","frames":[
         32,
         33,
         34,
@@ -73,8 +76,8 @@
         45,
         46,
         47,
-      ],"resourceVersion":"1.0","name":"flag_wave","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"flag_wave_torn","frames":[
         48,
         49,
         50,
@@ -91,8 +94,8 @@
         61,
         62,
         63,
-      ],"resourceVersion":"1.0","name":"flag_wave_torn","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"water","frames":[
         80,
         81,
         82,
@@ -125,8 +128,8 @@
         109,
         110,
         111,
-      ],"resourceVersion":"1.0","name":"water","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"alcove","frames":[
         112,
         113,
         114,
@@ -143,19 +146,19 @@
         125,
         126,
         127,
-      ],"resourceVersion":"1.0","name":"alcove","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"fountain_upper","frames":[
         144,
         145,
         146,
         147,
-      ],"resourceVersion":"1.0","name":"fountain_upper","tags":[],"resourceType":"GMTileAnimation",},
-    {"frames":[
+      ],},
+    {"resourceType":"GMTileAnimation","resourceVersion":"1.0","name":"fountain_lower","frames":[
         160,
         161,
         162,
         163,
-      ],"resourceVersion":"1.0","name":"fountain_lower","tags":[],"resourceType":"GMTileAnimation",},
+      ],},
   ],
   "tileAnimationSpeed": 15.0,
   "tileAnimation": {
@@ -8364,8 +8367,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ts_animations",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

@@ -1,4 +1,8 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "snd_footstep",
+  "conversionMode": 0,
   "compression": 2,
   "volume": 1.0,
   "preload": false,
@@ -16,8 +20,4 @@
     "name": "Characters",
     "path": "folders/Sounds/Characters.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "snd_footstep",
-  "tags": [],
-  "resourceType": "GMSound",
 }

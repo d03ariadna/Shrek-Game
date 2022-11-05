@@ -1,6 +1,10 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "snd_music_game",
+  "conversionMode": 0,
   "compression": 0,
-  "volume": 0.5,
+  "volume": 0.65,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +14,10 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_music_game.wav",
-  "duration": 76.8,
+  "soundFile": "snd_music_game.mp3",
+  "duration": 120.39837,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "snd_music_game",
-  "tags": [],
-  "resourceType": "GMSound",
 }

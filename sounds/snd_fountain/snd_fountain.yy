@@ -1,4 +1,8 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "snd_fountain",
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": false,
@@ -16,8 +20,4 @@
     "name": "Environment",
     "path": "folders/Sounds/Environment.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "snd_fountain",
-  "tags": [],
-  "resourceType": "GMSound",
 }
