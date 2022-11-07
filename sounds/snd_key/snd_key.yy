@@ -1,4 +1,8 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "snd_key",
+  "conversionMode": 0,
   "compression": 0,
   "volume": 0.81,
   "preload": false,
@@ -16,8 +20,4 @@
     "name": "Items",
     "path": "folders/Sounds/Items.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "snd_key",
-  "tags": [],
-  "resourceType": "GMSound",
 }

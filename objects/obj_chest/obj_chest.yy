@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_chest",
   "spriteId": {
     "name": "spr_chest",
     "path": "sprites/spr_chest/spr_chest.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -27,8 +31,4 @@
     "name": "Level",
     "path": "folders/Objects/Level.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_chest",
-  "tags": [],
-  "resourceType": "GMObject",
 }

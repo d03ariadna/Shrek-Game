@@ -1,7 +1,11 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_collision_parent",
   "spriteId": null,
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -24,8 +28,4 @@
     "name": "Level",
     "path": "folders/Objects/Level.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_collision_parent",
-  "tags": [],
-  "resourceType": "GMObject",
 }

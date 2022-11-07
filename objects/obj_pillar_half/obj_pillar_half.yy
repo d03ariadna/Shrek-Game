@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_pillar_half",
   "spriteId": {
     "name": "spr_pillar_half",
     "path": "sprites/spr_pillar_half/spr_pillar_half.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -30,8 +34,4 @@
     "name": "Level",
     "path": "folders/Objects/Level.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_pillar_half",
-  "tags": [],
-  "resourceType": "GMObject",
 }

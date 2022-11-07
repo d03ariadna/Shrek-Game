@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "ts_floor",
   "spriteId": {
     "name": "spr_tileset_floor",
     "path": "sprites/spr_tileset_floor/spr_tileset_floor.yy",
@@ -99,8 +102,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ts_floor",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }
