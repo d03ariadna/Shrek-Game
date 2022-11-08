@@ -75,6 +75,7 @@
     {"id":{"name":"snd_shield_deactivate","path":"sounds/snd_shield_deactivate/snd_shield_deactivate.yy",},"order":6,},
     {"id":{"name":"snd_footstep","path":"sounds/snd_footstep/snd_footstep.yy",},"order":1,},
     {"id":{"name":"spr_heart_pickup","path":"sprites/spr_heart_pickup/spr_heart_pickup.yy",},"order":2,},
+    {"id":{"name":"path_enemy4","path":"paths/path_enemy4/path_enemy4.yy",},"order":3,},
     {"id":{"name":"snd_music_menu","path":"sounds/snd_music_menu/snd_music_menu.yy",},"order":1,},
     {"id":{"name":"snd_bat_shoot","path":"sounds/snd_bat_shoot/snd_bat_shoot.yy",},"order":7,},
     {"id":{"name":"seq_menu","path":"sequences/seq_menu/seq_menu.yy",},"order":0,},
