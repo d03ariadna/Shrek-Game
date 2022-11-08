@@ -16,6 +16,7 @@
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
+    {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"GUI","assets":[],"visible":true,"depth":-12500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Sound_Objects","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7BAC3878","properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"sound_to_loop","path":"objects/obj_sound_loop/obj_sound_loop.yy",},"objectId":{"name":"obj_sound_loop","path":"objects/obj_sound_loop/obj_sound_loop.yy",},"value":"snd_fountain",},
