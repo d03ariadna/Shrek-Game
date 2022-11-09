@@ -1,17 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_key",
+  "name": "obj_gate_iron1",
   "spriteId": {
-    "name": "spr_keyB",
-    "path": "sprites/spr_keyB/spr_keyB.yy",
+    "name": "spr_gate_iron_1",
+    "path": "sprites/spr_gate_iron_1/spr_gate_iron_1.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_collision_parent",
+    "path": "objects/obj_collision_parent/obj_collision_parent.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,10 +27,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"chest_to_open","varType":4,"value":"noone","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":7,"eventType":7,"collisionObjectId":null,},
   ],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Level",

@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_key",
+  "name": "obj_lever",
   "spriteId": {
-    "name": "spr_keyB",
-    "path": "sprites/spr_keyB/spr_keyB.yy",
+    "name": "spr_lever",
+    "path": "sprites/spr_lever/spr_lever.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,9 +24,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+  ],
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"chest_to_open","varType":4,"value":"noone","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"gate_to_open","varType":4,"value":"noone","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [],
   "parent": {
