@@ -8,8 +8,7 @@ instance_destroy();
 /// @DnDHash : 06BA1320
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "type" "5"
 /// @DnDArgument : "where" "1"
 /// @DnDArgument : "size" "1"
 /// @DnDArgument : "color" "$914E82AA"
-effect_create_above(5, x + 0, y + 0, 1, $914E82AA & $ffffff);
+effect_create_above(0, x + 0, y + 0, 1, $914E82AA & $ffffff);

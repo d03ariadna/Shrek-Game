@@ -22,3 +22,9 @@ image_index += 0;
 /// @DnDComment : Reset the horizontal scale$(13_10)to 1 so the player faces$(13_10)right again
 image_xscale = 1;
 image_yscale = 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 29E6B9A9
+/// @DnDArgument : "var" "player_direction"
+player_direction = 0;

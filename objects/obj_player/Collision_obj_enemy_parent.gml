@@ -6,14 +6,6 @@
 /// @DnDArgument : "op" "1"
 if(alarm[0] < 0)
 {
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 0A333880
-	/// @DnDComment : This event runs when you$(13_10)touch an enemy$(13_10)$(13_10)This action will set the move_speed$(13_10)to 0 so the player can't move anymore
-	/// @DnDParent : 1362B03B
-	/// @DnDArgument : "var" "move_speed"
-	move_speed = 0;
-
 	/// @DnDAction : YoYo Games.Instances.Color_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 1003E78C
@@ -39,4 +31,36 @@ if(alarm[0] < 0)
 	/// @DnDParent : 1362B03B
 	/// @DnDArgument : "steps" "20"
 	alarm_set(0, 20);
+
+	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 71149CB1
+	/// @DnDParent : 1362B03B
+	/// @DnDArgument : "x" "other.x"
+	/// @DnDArgument : "y" "other.y"
+	direction = point_direction(x, y, other.x, other.y);
+
+	/// @DnDAction : YoYo Games.Movement.Set_Direction_Free
+	/// @DnDVersion : 1
+	/// @DnDHash : 7F5BBC53
+	/// @DnDParent : 1362B03B
+	/// @DnDArgument : "direction" "180"
+	/// @DnDArgument : "direction_relative" "1"
+	direction += 180;
+
+	/// @DnDAction : YoYo Games.Movement.Set_Speed
+	/// @DnDVersion : 1
+	/// @DnDHash : 3E1D8018
+	/// @DnDParent : 1362B03B
+	/// @DnDArgument : "speed" "12"
+	speed = 12;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 6CD737FB
+	/// @DnDParent : 1362B03B
+	/// @DnDArgument : "expr" "-1"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "hearts"
+	hearts += -1;
 }

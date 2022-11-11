@@ -12,3 +12,20 @@ move_speed = 4;
 /// @DnDComment : Initialize coins value at 0
 /// @DnDArgument : "var" "coins"
 coins = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 56B25C40
+/// @DnDInput : 2
+/// @DnDArgument : "expr" "3"
+/// @DnDArgument : "expr_1" "max_hearts"
+/// @DnDArgument : "var" "max_hearts"
+/// @DnDArgument : "var_1" "hearts"
+max_hearts = 3;
+hearts = max_hearts;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 644FCD93
+/// @DnDArgument : "var" "player_direction"
+player_direction = 0;

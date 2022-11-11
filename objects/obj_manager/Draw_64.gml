@@ -37,4 +37,20 @@ if(l4CC419CD_0)
 	/// @DnDArgument : "caption" ""x""
 	/// @DnDArgument : "var" "obj_player.coins"
 	draw_text(1135, 15, string("x") + string(obj_player.coins));
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Sprites_Stacked
+	/// @DnDVersion : 1
+	/// @DnDHash : 7081AF75
+	/// @DnDParent : 4CC419CD
+	/// @DnDArgument : "x" "30"
+	/// @DnDArgument : "y" "30"
+	/// @DnDArgument : "sprite" "spr_heart"
+	/// @DnDArgument : "number" "obj_player.hearts"
+	/// @DnDSaveInfo : "sprite" "spr_heart"
+	var l7081AF75_0 = sprite_get_width(spr_heart);
+	var l7081AF75_1 = 0;
+	for(var l7081AF75_2 = obj_player.hearts; l7081AF75_2 > 0; --l7081AF75_2) {
+		draw_sprite(spr_heart, 0, 30 + l7081AF75_1, 30);
+		l7081AF75_1 += l7081AF75_0;
+	}
 }

@@ -16,3 +16,10 @@ y += -move_speed;
 /// @DnDSaveInfo : "spriteind" "spr_player_walk_up"
 sprite_index = spr_player_walk_up;
 image_index += 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1749F44D
+/// @DnDArgument : "expr" "90"
+/// @DnDArgument : "var" "player_direction"
+player_direction = 90;
