@@ -14,9 +14,9 @@ if(l4CC419CD_0)
 	/// @DnDParent : 4CC419CD
 	/// @DnDArgument : "x" "1100"
 	/// @DnDArgument : "y" "25"
-	/// @DnDArgument : "sprite" "spr_hud_coin"
-	/// @DnDSaveInfo : "sprite" "spr_hud_coin"
-	draw_sprite(spr_hud_coin, 0, 1100, 25);
+	/// @DnDArgument : "sprite" "spr_hud_crown"
+	/// @DnDSaveInfo : "sprite" "spr_hud_crown"
+	draw_sprite(spr_hud_crown, 0, 1100, 25);
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Font
 	/// @DnDVersion : 1

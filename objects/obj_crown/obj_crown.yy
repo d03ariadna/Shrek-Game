@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_crown",
   "spriteId": {
-    "name": "spr_coin",
-    "path": "sprites/spr_coin/spr_coin.yy",
+    "name": "spr_crown",
+    "path": "sprites/spr_crown/spr_crown.yy",
   },
   "solid": false,
   "visible": true,
