@@ -30,6 +30,22 @@ controls += "\nSHIFT";
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 21D52135
+/// @DnDArgument : "expr" ""\nP""
+/// @DnDArgument : "expr_relative" "1"
+/// @DnDArgument : "var" "controls"
+controls += "\nP";
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1920A312
+/// @DnDArgument : "expr" ""\nSHIFT ""
+/// @DnDArgument : "expr_relative" "1"
+/// @DnDArgument : "var" "controls"
+controls += "\nSHIFT ";
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 7ED45542
 /// @DnDArgument : "expr" ""ACTIONS\n""
 /// @DnDArgument : "var" "actionst"
@@ -57,3 +73,19 @@ actions += "\nUse Sword";
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "actions "
 actions  += "\nActivate Shield";
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 020B90F2
+/// @DnDArgument : "expr" ""\nPull Leavers""
+/// @DnDArgument : "expr_relative" "1"
+/// @DnDArgument : "var" "actions"
+actions += "\nPull Leavers";
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 75E955F7
+/// @DnDArgument : "expr" ""\nOpne Doors""
+/// @DnDArgument : "expr_relative" "1"
+/// @DnDArgument : "var" "actions"
+actions += "\nOpne Doors";
