@@ -17,11 +17,11 @@ coins = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 56B25C40
 /// @DnDInput : 2
-/// @DnDArgument : "expr" "3"
+/// @DnDArgument : "expr" "5"
 /// @DnDArgument : "expr_1" "max_hearts"
 /// @DnDArgument : "var" "max_hearts"
 /// @DnDArgument : "var_1" "hearts"
-max_hearts = 3;
+max_hearts = 5;
 hearts = max_hearts;
 
 /// @DnDAction : YoYo Games.Common.Variable
