@@ -20,8 +20,7 @@ var speed_yD = y - yprevious;
 /// @DnDComment : This condition checks if the baddie$(13_10)is moving right
 /// @DnDArgument : "var" "speed_xD"
 /// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "1"
-if(speed_xD >= 1)
+if(speed_xD >= 0)
 {
 	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 	/// @DnDVersion : 1
@@ -79,8 +78,7 @@ if(speed_xD <= -1)
 /// @DnDComment : If baddie is moving down
 /// @DnDArgument : "var" "speed_yD"
 /// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "1"
-if(speed_yD >= 1)
+if(speed_yD >= 0)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
