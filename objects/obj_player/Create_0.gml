@@ -29,3 +29,10 @@ hearts = max_hearts;
 /// @DnDHash : 644FCD93
 /// @DnDArgument : "var" "player_direction"
 player_direction = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3858B185
+/// @DnDArgument : "expr" "100"
+/// @DnDArgument : "var" "energy_shield"
+energy_shield = 100;

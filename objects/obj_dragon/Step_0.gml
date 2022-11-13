@@ -27,8 +27,8 @@ if(alarm[0] < 0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 428C673E
 		/// @DnDParent : 30933E88
-		/// @DnDArgument : "speed" "1"
-		speed = 1;
+		/// @DnDArgument : "speed" "1.5"
+		speed = 1.5;
 	
 		/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 		/// @DnDVersion : 1
