@@ -37,5 +37,13 @@ if(hearts < max_hearts)
 		/// @DnDArgument : "size" "1"
 		/// @DnDArgument : "color" "$FF3CC190"
 		effect_create_below(1, x + 0, y + 0, 1, $FF3CC190 & $ffffff);
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 649D507E
+		/// @DnDParent : 3BEF6C28
+		/// @DnDArgument : "soundid" "snd_potion"
+		/// @DnDSaveInfo : "soundid" "snd_potion"
+		audio_play_sound(snd_potion, 0, 0, 1.0, undefined, 1.0);
 	}
 }

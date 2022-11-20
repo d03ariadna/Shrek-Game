@@ -26,3 +26,10 @@ instance_destroy();
 /// @DnDArgument : "where" "1"
 /// @DnDArgument : "color" "$FF35FBFF"
 effect_create_above(7, x + 0, y + 0, 0, $FF35FBFF & $ffffff);
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 2D3C8203
+/// @DnDArgument : "soundid" "snd_key"
+/// @DnDSaveInfo : "soundid" "snd_key"
+audio_play_sound(snd_key, 0, 0, 1.0, undefined, 1.0);

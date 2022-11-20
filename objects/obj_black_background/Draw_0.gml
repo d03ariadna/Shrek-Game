@@ -28,7 +28,8 @@ draw_set_alpha(l5FF10FF5_0 / $ff);
 /// @DnDVersion : 1
 /// @DnDHash : 4B880168
 /// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y" "-230"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" ""
 /// @DnDArgument : "var" "game_over"
-draw_text(x + 0, y + 0,  + string(game_over));
+draw_text(x + 0, y + -230,  + string(game_over));

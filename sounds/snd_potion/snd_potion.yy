@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_bat_shoot",
+  "name": "snd_potion",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.13,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -14,10 +14,10 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_bat_shoot.wav",
-  "duration": 2.148438,
+  "soundFile": "snd_potion.wav",
+  "duration": 1.02517,
   "parent": {
-    "name": "Characters",
-    "path": "folders/Sounds/Characters.yy",
+    "name": "Environment",
+    "path": "folders/Sounds/Environment.yy",
   },
 }

@@ -5,6 +5,14 @@
 /// @DnDArgument : "op" "2"
 if(energy_shield > 0)
 {
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 1AF73D9B
+	/// @DnDParent : 1A1051D2
+	/// @DnDArgument : "soundid" "snd_shield_activate"
+	/// @DnDSaveInfo : "soundid" "snd_shield_activate"
+	audio_play_sound(snd_shield_activate, 0, 0, 1.0, undefined, 1.0);
+
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 514892D4

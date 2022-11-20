@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_bat_defeat",
+  "name": "snd_fire",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_bat_defeat.wav",
-  "duration": 0.902792,
+  "soundFile": "snd_fire.mp3",
+  "duration": 8.16,
   "parent": {
     "name": "Characters",
     "path": "folders/Sounds/Characters.yy",

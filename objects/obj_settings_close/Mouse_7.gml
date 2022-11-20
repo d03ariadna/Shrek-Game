@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 455DD1E7
+/// @DnDArgument : "soundid" "snd_button"
+/// @DnDSaveInfo : "soundid" "snd_button"
+audio_play_sound(snd_button, 0, 0, 1.0, undefined, 1.0);
+
 /// @DnDAction : YoYo Games.Instances.Inherit_Event
 /// @DnDVersion : 1
 /// @DnDHash : 103E8864

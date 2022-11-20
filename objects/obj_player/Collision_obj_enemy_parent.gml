@@ -36,9 +36,9 @@ if(alarm[0] < 0)
 	/// @DnDHash : 764ECBC6
 	/// @DnDComment : Play "hurt" sound
 	/// @DnDParent : 1362B03B
-	/// @DnDArgument : "soundid" "snd_hurt"
-	/// @DnDSaveInfo : "soundid" "snd_hurt"
-	audio_play_sound(snd_hurt, 0, 0, 1.0, undefined, 1.0);
+	/// @DnDArgument : "soundid" "snd_hurted"
+	/// @DnDSaveInfo : "soundid" "snd_hurted"
+	audio_play_sound(snd_hurted, 0, 0, 1.0, undefined, 1.0);
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1

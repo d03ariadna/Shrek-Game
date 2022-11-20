@@ -13,6 +13,14 @@ if (l5C1D774A_0)
 	/// @DnDArgument : "var" "image_index"
 	if(image_index == 0)
 	{
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 1B0D1012
+		/// @DnDParent : 07E6B467
+		/// @DnDArgument : "soundid" "snd_lever_pull"
+		/// @DnDSaveInfo : "soundid" "snd_lever_pull"
+		audio_play_sound(snd_lever_pull, 0, 0, 1.0, undefined, 1.0);
+	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 195EF072

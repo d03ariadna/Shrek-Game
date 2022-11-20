@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_lever_pull.wav",
-  "duration": 0.859521,
+  "duration": 0.0,
   "parent": {
     "name": "Environment",
     "path": "folders/Sounds/Environment.yy",
